@@ -38,7 +38,7 @@ button.addEventListener('click',async function(){
     for(let i = 0;i<count;i++){
         let speed = await getLoadSpeed();
         testArray.push(speed);
-        progress.style.width = ((i+1)/count * 100) + '%'
+        progress.style.width = (((i+1)/count) * 100) + '%'
         speedTxt.innerText = getAvgSpeed().toFixed(2) + ' kbps'
 
     }
