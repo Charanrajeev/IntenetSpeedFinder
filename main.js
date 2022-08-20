@@ -1,6 +1,6 @@
 const button = document.querySelector('.button')
  const size = 1574894 * 8;
- const count = 10;
+ const count = 100;
  
  let testArray = [];
  let progress = document.querySelector('.progress')
