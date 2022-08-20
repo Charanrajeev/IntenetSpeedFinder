@@ -1,4 +1,4 @@
-const button = document.querySelector('button')
+const button = document.querySelector('.button')
  const size = 1574894 * 8;
  const count = 10;
  
